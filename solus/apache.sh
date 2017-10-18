@@ -11,4 +11,3 @@ ls -al /var/www/
 sudo systemctl enable httpd # Enable on startup
 sudo systemctl start httpd # Start the web server
 # sudo systemctl stop httpd # Stop the web server
-
