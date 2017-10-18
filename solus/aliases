@@ -1,0 +1,2 @@
+# Set the cache to timeout after 1 hour (setting is in seconds)
+alias git-cred='git config --global credential.helper 'cache --timeout=3600''
