@@ -1,0 +1,28 @@
+# /etc/fstab: static file system information.
+#
+# Use 'blkid' to print the universally unique identifier for a
+# device; this may be used with UUID= as a more robust way to name devices
+# that works even if disks are added and removed. See fstab(5).
+#
+# <file system>                             <mount point>       <type>  <options>                   <dump>  <pass>
+
+# / was on /dev/sda10 during installation
+# UUID=9cf697a5-ed8e-4952-bb4a-c3c12cd8d048   /                   ext4    errors=remount-ro           0       1
+# swap was on /dev/sda5 during installation
+# UUID=6c34bd9e-76ed-48e0-bc2e-19935724dd97   none                swap    sw                          0       0
+
+
+UUID=19bcad68-766b-44ec-bc4a-8acfa8aa5348   /media/Shared       ext4    defaults                    0       2
+UUID=4251f7df-b548-4e24-8f65-bd8fd8281358   /media/Mariner      ext4    defaults                    0       2
+
+UUID=94BE9A1EBE99F946                       /media/Delta        ntfs    defaults,umask=007,gid=46   0       0
+UUID=F8FEAC07FEABBBEE                       /media/Epsilon      ntfs    defaults,umask=007,gid=46   0       0
+UUID=7A305EA5305E67E1                       /media/Hadraniel    ntfs    defaults,umask=007,gid=46   0       0
+UUID=39E0E8117EBB5950                       /media/Mercury      ntfs    defaults,umask=007,gid=46   0       0
+UUID=15942CE100DE89BE                       /media/Pluto        ntfs    defaults,umask=007,gid=46   0       0
+UUID=D804BE8B04BE6C5E                       /media/Voyager      ntfs    defaults,umask=007,gid=46   0       0
+
+/dev/disk/by-uuid/02E0386FE0386AD5 /mnt/02E0386FE0386AD5 auto nosuid,nodev,nofail,noauto 0 0
+/dev/disk/by-uuid/56583D16583CF679 /mnt/56583D16583CF679 auto nosuid,nodev,nofail,noauto 0 0
+/dev/disk/by-uuid/8241f6b4-a6d9-4f03-a959-63032d2883aa /mnt/8241f6b4-a6d9-4f03-a959-63032d2883aa auto nosuid,nodev,nofail,noauto 0 0
+/dev/disk/by-uuid/2deada65-ab85-4afa-ac8e-db9d167fe7ab /mnt/2deada65-ab85-4afa-ac8e-db9d167fe7ab auto nosuid,nodev,nofail,noauto 0 0

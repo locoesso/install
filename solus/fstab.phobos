@@ -1,0 +1,28 @@
+# /etc/fstab: static file system information.
+#
+# <fs>      <mountpoint> <type> <opts>      <dump/pass>
+
+# /dev/ROOT   /            ext3    noatime        0 1
+# /dev/SWAP   none         swap    sw             0 0
+# /dev/fd0    /mnt/floppy  auto    noauto         0 0
+none        /proc        proc    nosuid,noexec  0 0
+none        /dev/shm     tmpfs   defaults       0 0
+UUID=6c34bd9e-76ed-48e0-bc2e-19935724dd97	swap	swap	sw	0	0
+# /dev/sda12 at time of installation
+UUID=c749e20d-1704-4fa8-9097-42ae39970549	/	ext4	rw,relatime,errors=remount-ro	0	1
+
+/dev/disk/by-uuid/94BE9A1EBE99F946                              /media/Delta auto nosuid,nodev,nofail,x-gvfs-show,x-gvfs-name=Delta 0 0
+/dev/disk/by-uuid/D804BE8B04BE6C5E                              /media/Voyager auto nosuid,nodev,nofail,x-gvfs-show,x-gvfs-name=Voyager 0 0
+/dev/disk/by-uuid/7A305EA5305E67E1                              /media/Hadraniel auto nosuid,nodev,nofail,x-gvfs-show,x-gvfs-name=Hadraniel 0 0
+/dev/disk/by-uuid/F8FEAC07FEABBBEE                              /media/Epsilon auto nosuid,nodev,nofail,x-gvfs-show,x-gvfs-name=Epsilon 0 0
+/dev/disk/by-id/usb-SAMSUNG_HD103UJ_00E000FF6F604-0:0-part5     /media/Mariner auto nosuid,nodev,nofail,x-gvfs-show,x-gvfs-name=Mariner 0 0
+/dev/disk/by-id/usb-SAMSUNG_HD103UJ_00E000FF6F604-0:0-part6     /media/Mercury auto nosuid,nodev,nofail,x-gvfs-show,x-gvfs-name=Mercury 0 0
+/dev/disk/by-uuid/9cf697a5-ed8e-4952-bb4a-c3c12cd8d048          /mnt/kdeneon auto nosuid,nodev,nofail,x-gvfs-name=KDEneon,noauto 0 0
+/dev/disk/by-uuid/56583D16583CF679                              /mnt/56583D16583CF679 auto nosuid,nodev,nofail,noauto,x-udisks-auth,x-gvfs-name=Windows10 0 0
+/dev/disk/by-uuid/02E0386FE0386AD5                              /mnt/windows_boot auto nosuid,nodev,nofail,noauto,x-udisks-auth,x-gvfs-name=WindowsBoot 0 0
+/dev/disk/by-uuid/cdfa40dc-8b3e-4a86-949c-f53ea6a1a6a9          /mnt/ubuntumate auto nosuid,nodev,nofail,noauto,x-udisks-auth,x-gvfs-name=UbuntuMATE 0 0
+/dev/disk/by-uuid/15942CE100DE89BE                              /media/Pluto auto nosuid,nodev,nofail,x-gvfs-show,x-gvfs-name=Pluto 0 0
+/dev/disk/by-uuid/b9c833ed-9c7e-403d-a698-94d6b73e41f6          /media/Shared auto nosuid,nodev,nofail,x-gvfs-show,x-gvfs-name=Shared 0 0
+
+/dev/disk/by-uuid/5e8777bd-ede8-4050-8ec1-9ecbd7a0503b          /mnt/5e8777bd-ede8-4050-8ec1-9ecbd7a0503b auto nosuid,nodev,nofail,noauto 0 0
+/dev/disk/by-uuid/b9e0fc60-922c-40d1-a8b6-7cde868b1294          /mnt/b9e0fc60-922c-40d1-a8b6-7cde868b1294 auto nosuid,nodev,nofail,noauto 0 0

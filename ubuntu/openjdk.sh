@@ -1,0 +1,1 @@
+sudo apt-get install openjdk-7-jre icedtea-7-plugin ca-certificates-java icedtea-7-jre-cacao icedtea-7-jre-jamvm java-common libatk-wrapper-java libatk-wrapper-java-jni libbonobo2-0 libbonobo2-common libgnome2-0 libgnomevfs2-0 libgnomevfs2-common openjdk-7-jre-headless openjdk-7-jre-lib ttf-dejavu-extra tzdata-java

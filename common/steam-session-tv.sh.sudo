@@ -1,0 +1,24 @@
+#!/bin/bash
+
+echo
+echo "Need to use sudo!"
+now=$(date +"%d-%m-%Y_%H.%M.%S")
+
+# Script to start Steam on TV
+	sudo mv -f /usr/bin/steam-tv $HOME/steam-tv.$now
+	sudo echo "#!/bin/bash" >/usr/bin/steam-tv
+	sudo echo "disper -S &" >>/usr/bin/steam-tv
+	sudo echo "steam-de" >>/usr/bin/steam-tv
+	sudo chmod +x /usr/bin/steam-tv
+# Xsession entry
+	sudo mv -f /usr/share/xsessions/steam-bigpicture.desktop /usr/share/xsessions/steam-bigpicture.desktop.$now
+	sudo echo "[Desktop Entry]" >/usr/share/xsessions/steam-bigpicture.desktop
+	sudo echo "Name=Steam" >>/usr/share/xsessions/steam-bigpicture.desktop
+	sudo echo "Comment=This session will start Steam Big Picture on TV" >>/usr/share/xsessions/steam-bigpicture.desktop
+	sudo echo "Exec=steam-tv" >>/usr/share/xsessions/steam-bigpicture.desktop
+	sudo echo "Type=Application" >>/usr/share/xsessions/steam-bigpicture.desktop
+echo
+more /usr/share/xsessions/steam-bigpicture.desktop
+echo
+more /usr/bin/steam-tv
+exit
