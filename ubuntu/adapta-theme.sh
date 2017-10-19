@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 sudo add-apt-repository ppa:tista/adapta
 sudo apt update

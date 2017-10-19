@@ -1,8 +1,8 @@
-#!/bin/bash
+#!/bin/sh
 
 sudo add-apt-repository ppa:webupd8team/atom
 sudo apt update
-sudo apt install atom 
+sudo apt install atom
 # sudo apt install python3-pip
 
 # sudo apt install flake8 python-flake8 python3-flake8

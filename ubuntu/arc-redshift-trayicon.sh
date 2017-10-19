@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/sh
 
 # sudo cp transmission-tray-icon.png /usr/share/icons/Arc/apps/24/
 # sudo cp transmission-tray-icon.png /usr/share/icons/Arc/apps/22/
