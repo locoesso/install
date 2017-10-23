@@ -17,4 +17,4 @@ sudo apt install atom
 
 # apm install linter linter-flake8
 
-# apm install atom-beautify minimap file-icons atom-clock open-in-browser autocomplete-python atom-runner browser-plus color-picker atom-material-ui atom-material-syntax atom-material-syntax-dark atom-material-syntax-light
+apm install atom-beautify minimap file-icons atom-clock open-in-browser autocomplete-python atom-runner browser-plus color-picker atom-material-ui atom-material-syntax atom-material-syntax-dark atom-material-syntax-light
