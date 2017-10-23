@@ -1,8 +1,14 @@
 #!/bin/sh
 
+# Lisätään atom repo ubuntuun
 sudo add-apt-repository ppa:webupd8team/atom
+
+# Päivitetään ubuntu sovellus valikoima
 sudo apt update
+
+# Asennataan atom paketti
 sudo apt install atom
+
 # sudo apt install python3-pip
 
 # sudo apt install flake8 python-flake8 python3-flake8
