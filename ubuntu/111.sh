@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/bin/sh
+
 #sudo mkdir /usr/share/icons/Mint-Y/status
 #sudo mkdir /usr/share/icons/Mint-Y/status/22
 #sudo mkdir /usr/share/icons/Mint-Y/status/24
@@ -8,4 +9,3 @@
 
 sudo cp transmission-panel.png /usr/share/icons/Mint-Y/panel/22/
 sudo cp transmission-panel.png /usr/share/icons/Mint-Y/panel/24/
-

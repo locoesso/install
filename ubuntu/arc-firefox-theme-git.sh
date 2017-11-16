@@ -1,3 +1,5 @@
+#!/bin/sh
+
 sudo apt install autoconf automake pkg-config libgtk-3-dev git
 cd /tmp/arc-firefox-theme
 sudo make uninstall

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # http://alecive.deviantart.com/art/AwOken-163570862
 
