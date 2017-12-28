@@ -2,6 +2,6 @@
 
 # https://launchpad.net/~phoerious/+archive/ubuntu/keepassxc
 
-add-apt-repository ppa:phoerious/keepassxc
-apt update
-apt install keepassxc
+sudo add-apt-repository ppa:phoerious/keepassxc
+sudo apt update
+sudo apt install keepassxc
