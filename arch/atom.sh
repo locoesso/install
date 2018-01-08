@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo pacman -Syu atom python-pip flake8 autopep8
+sudo pacman -Syu atom python-pip flake8 autopep8 ctags
 yaourt flake8-docstrings
 
 apm install linter linter-flake8 atom-beautify minimap file-icons atom-clock open-in-browser autocomplete-python atom-runner browser-plus color-picker atom-material-ui atom-material-syntax atom-material-syntax-dark atom-material-syntax-light
