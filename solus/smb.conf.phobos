@@ -261,3 +261,9 @@
 	writeable = yes
 	valid users = esso
 
+[Downloads]
+	path = /media/Shared/Downloads
+	writeable = yes
+;	browseable = yes
+	valid users = esso
+
