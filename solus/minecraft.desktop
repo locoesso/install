@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Minecraft
+Comment=Minecraft Launcher
+Icon=minecraft
+Exec=java -jar Minecraft.jar
+Path=/opt/minecraft/
+NoDisplay=false
+Categories=Game;
+StartupNotify=false
+Terminal=false
