@@ -2,4 +2,4 @@
 
 cp aliases $HOME/.aliases
 echo "source $HOME/.aliases" >> $HOME/.bashrc
-source $HOME/.bashrc
+source ~/.bashrc
