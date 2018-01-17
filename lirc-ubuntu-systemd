@@ -1,0 +1,8 @@
+Setting up lirc (0.10.0-2) ...
+Created symlink /etc/systemd/system/multi-user.target.wants/irexec.service → /lib/systemd/system/irexec.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/lircd-setup.service → /lib/systemd/system/lircd-setup.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/lircd-uinput.service → /lib/systemd/system/lircd-uinput.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/lircd.service → /lib/systemd/system/lircd.service.
+Created symlink /etc/systemd/system/sockets.target.wants/lircd.socket → /lib/systemd/system/lircd.socket.
+Created symlink /etc/systemd/system/multi-user.target.wants/lircmd.service → /lib/systemd/system/lircmd.service.
+

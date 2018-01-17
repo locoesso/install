@@ -1,0 +1,11 @@
+alias eop-s='eopkg search'
+alias lsl="ls -lhFA | less"
+alias df="df -Tha --total"
+alias free="free -mt"
+alias ps="ps auxf"
+alias psg="ps aux | grep -v grep | grep -i -e VSZ -e"
+alias wget="wget -c"
+alias histg="history | grep"
+alias myip="curl http://ipecho.net/plain; echo"
+alias gitup="git add . && git commit && git push"
+
