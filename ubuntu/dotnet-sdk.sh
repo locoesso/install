@@ -2,6 +2,9 @@
 
 # https://www.microsoft.com/net/learn/get-started/linuxubuntu
 
+curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
+sudo mv microsoft.gpg /etc/apt/trusted.gpg.d/microsoft.gpg
+
 # Ubuntu 17.10
 sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/microsoft-ubuntu-artful-prod artful main" > /etc/apt/sources.list.d/dotnetdev.list'
 
@@ -11,6 +14,4 @@ sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/microsof
 sudo apt-get apt-transport-https
 sudo apt update
 sudo apt install dotnet-sdk-2.1.4
-export PATH=$PATH:$HOME/dotnet
-echo "export PATH=$PATH:$HOME/dotnet"
 dotnet --version
