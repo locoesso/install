@@ -11,3 +11,6 @@ sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/microsof
 sudo apt-get apt-transport-https
 sudo apt update
 sudo apt install dotnet-sdk-2.1.4
+export PATH=$PATH:$HOME/dotnet
+echo "export PATH=$PATH:$HOME/dotnet"
+dotnet --version
