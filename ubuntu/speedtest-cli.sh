@@ -8,6 +8,5 @@
 # Upgrade: "sudo pip install speedtest-cli --upgrade"
 
 sudo apt install python-pip
-pip install --upgrade pip
-pip install speedtest-cli
-
+#pip install --upgrade pip
+sudo pip install speedtest-cli
