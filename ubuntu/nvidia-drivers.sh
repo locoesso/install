@@ -2,5 +2,6 @@
 
 sudo add-apt-repository ppa:graphics-drivers/ppa
 sudo apt update
-echo Graphics drivers PPA added. No drivers installed.
+apt search nvidia-3
+echo "Graphics drivers PPA added. No drivers installed."
 
