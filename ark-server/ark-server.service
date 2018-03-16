@@ -1,0 +1,16 @@
+[Unit]
+Description=ARK: Survival Evolved dedicated server
+Wants=network-online.target 
+After=syslog.target network.target nss-lookup.target network-online.target
+
+[Service]
+ExecStartPre=/media/Shared/steam/steamcmd/steamcmd.sh +login anonymous +force_install_dir /media/Shared/steam/servers/ark +app_update 376030 +quit
+ExecStart=/media/Shared/steam/servers/ark/ShooterGame/Binaries/Linux/ShooterGameServer TheIsland?listen?SessionName=phobos -server -log
+LimitNOFILE=100000
+ExecReload=/bin/kill -s HUP $MAINPID
+ExecStop=/bin/kill -s INT $MAINPID
+User=steam
+Group=steam 
+
+[Install]
+WantedBy=multi-user.target
