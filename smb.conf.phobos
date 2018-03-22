@@ -1,0 +1,29 @@
+[global]
+
+netbios name = phobos
+usershare owner only = false
+
+
+[Altair]
+	path = /media/Altair
+	writeable = yes
+;	browseable = yes
+	valid users = esso
+
+[Betelgeuse]
+	path = /media/Betelgeuse
+	writeable = yes
+;	browseable = yes
+	valid users = esso
+
+[Canopus]
+	path = /media/Canopus
+	writeable = yes
+;	browseable = yes
+	valid users = esso
+
+[Downloads]
+	path = /media/Altair/Downloads
+	writeable = yes
+;	browseable = yes
+	valid users = esso

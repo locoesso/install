@@ -1,0 +1,20 @@
+# /etc/fstab: static file system information.
+#
+# <fs>      <mountpoint> <type> <opts>      <dump/pass>
+
+# /dev/ROOT   /            ext3    noatime        0 1
+# /dev/SWAP   none         swap    sw             0 0
+# /dev/fd0    /mnt/floppy  auto    noauto         0 0
+
+none        /proc        proc    nosuid,noexec  0 0
+none        /dev/shm     tmpfs   defaults       0 0
+
+/dev/disk/by-uuid/805aea04-c487-4b57-84fc-a53c45325de4	swap	            swap	sw	0	0
+
+# /dev/SolusSystem/Root at time of installation
+/dev/disk-by-uuid/f0cd015f-e9a0-4aab-a6e8-ebba68e1782b	/	                ext4	rw,relatime,errors=remount-ro	                           0 1
+
+/dev/disk/by-uuid/2e7bce1f-a625-40f2-a5cf-c35b5d878bfd  /media/Altair       auto    nosuid,nodev,nofail,x-gvfs-show,x-gvfs-name=Altair         0 0
+/dev/disk/by-uuid/77221da1-5d97-4593-a7e8-632c20bf5b02  /media/Backup       auto    nosuid,nodev,nofail,x-gvfs-show,x-gvfs-name=Backup         0 0
+/dev/disk/by-uuid/170aca65-20be-4451-b3c0-035a8cc59d3e  /media/Betelgeuse   auto    nosuid,nodev,nofail,x-gvfs-show,x-gvfs-name=Betelgeuse     0 0
+/dev/disk/by-uuid/d1e0aa7c-e6a1-4401-9fc6-1a89b1d6e8a5  /media/Canopus      auto    nosuid,nodev,nofail,x-gvfs-show,x-gvfs-name=Canopus        0 0
