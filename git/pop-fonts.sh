@@ -1,12 +1,12 @@
 #!/bin/sh
 
+sudo dnf install google-roboto-slab-fonts google-roboto-mono-fonts google-roboto-fonts
+
 mkdir -p $HOME/.git-install
 cd $HOME/.git-install
 git clone https://github.com/pop-os/fonts
 
 cd $HOME/.git-install/fonts
-sudo make uninstall
-rm -rf ~/.local/share/fonts/roboto-slab
+rm -rf ~/.local/share/fonts/fira
 
-sudo eopkg it font-fira-ttf
-cp -r $HOME/.git-install/fonts/roboto-slab $HOME/.local/share/fonts/
+cp -r $HOME/.git-install/fonts/fira $HOME/.local/share/fonts/
