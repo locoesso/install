@@ -19,9 +19,9 @@ sudo mkdir -p /media/Altair
 sudo mkdir -p /media/Betelgeuse
 sudo mkdir -p /media/Canopus
 
-echo "//phobos/Altair		/media/Altair		cifs	iocharset=utf8,credentials=$HOME/.smbcredentials,uid=1000	0	0" | sudo tee -a /etc/fstab
-echo "//phobos/Betelgeuse	/media/Betelgeuse	cifs	iocharset=utf8,credentials=$HOME/.smbcredentials,uid=1000	0	0" | sudo tee -a /etc/fstab
-echo "//phobos/Canopus		/media/Canopus		cifs	iocharset=utf8,credentials=$HOME/.smbcredentials,uid=1000	0	0" | sudo tee -a /etc/fstab
+echo "//phobos/Altair		/media/Altair		cifs	comment=systemd.automount,iocharset=utf8,credentials=$HOME/.smbcredentials,uid=1000	0	0" | sudo tee -a /etc/fstab
+echo "//phobos/Betelgeuse	/media/Betelgeuse	cifs	comment=systemd.automount,iocharset=utf8,credentials=$HOME/.smbcredentials,uid=1000	0	0" | sudo tee -a /etc/fstab
+echo "//phobos/Canopus		/media/Canopus		cifs	comment=systemd.automount,iocharset=utf8,credentials=$HOME/.smbcredentials,uid=1000	0	0" | sudo tee -a /etc/fstab
 
 echo "Mount filesystems"
 sudo mount -a
