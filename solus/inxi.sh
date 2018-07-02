@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # Inxi is a bash script that fetches hardware information from multiple
 # sources and commands on the system and gives you goodlooking reports
