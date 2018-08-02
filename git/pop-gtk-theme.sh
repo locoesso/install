@@ -1,6 +1,7 @@
 #!/bin/sh
 
-sudo eopkg it libsass sassc inkscape optipng make
+# sudo eopkg it libsass sassc inkscape optipng make
+# sudo pacman -S libsass sassc inkscape optipng make
 
 mkdir -p $HOME/.git-install
 cd $HOME/.git-install
