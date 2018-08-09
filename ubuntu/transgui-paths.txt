@@ -1,7 +1,0 @@
-/media/Mercury=/media/Mercury
-/media/Delta=/media/Delta
-/media/Epsilon=/media/Epsilon
-/media/Hadraniel=/media/Hadraniel
-/media/Pluto=/media/Pluto
-/media/Mariner=/media/Mariner
-/media/Voyager=/media/Voyager
