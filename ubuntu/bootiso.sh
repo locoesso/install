@@ -1,6 +1,6 @@
 #!/bin/sh
 
-sudo apt install syslinux mtools
+sudo apt install syslinux mtools wimtools
 
 curl -L https://git.io/bootiso -O
 chmod +x bootiso
