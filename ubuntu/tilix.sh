@@ -7,11 +7,17 @@ sudo add-apt-repository ppa:webupd8team/terminix
 sudo apt update
 sudo apt install tilix
 
+sudo ln -s /etc/profile.d/vte-2.91.sh /etc/profile.d/vte.sh
 cp $HOME/.bashrc $HOME/.bashrc.ORG
+
 echo "
 if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
         source /etc/profile.d/vte.sh
 fi
 ">>$HOME/.bashrc
-sudo ln -s /etc/profile.d/vte-2.91.sh /etc/profile.d/vte.sh
 
+echo "
+if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
+        source /etc/profile.d/vte.sh
+fi
+">>$HOME/.zshrc
