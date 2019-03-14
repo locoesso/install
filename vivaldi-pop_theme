@@ -1,0 +1,11 @@
+Background:     #574f4a
+Foreground:     #ededed
+Highlight:      #48b9c7
+Accent:         #443a3a
+
+Accent color from active page:  no
+Apply accent color to window:   no
+Transparent tabs:               no
+
+Corner rounding:                5 px
+
