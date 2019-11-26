@@ -1,4 +1,4 @@
 #!/bin/sh
 
-sudo dnf groupinstall "Development Tools"
-sudo dnf groupinstall "C Development Tools and Libraries"
+sudo dnf -y groupinstall "Development Tools"
+sudo dnf -y groupinstall "C Development Tools and Libraries"
